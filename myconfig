@@ -1,0 +1,27 @@
+hello, this my development configuration!
+
+1、zsh + oh_my_zsh
+使用包管理器安装zsh，设置默认shell为zsh
+在oh_my_zsh官网复制命令执行
+切换theme为ys
+2、使用包管理器或者从github克隆安装autojump
+autojump的默认别名为j
+使用j directory跳转到指定目录，需要注意的是只能跳转到之前去过的目录
+3、安装vim和spacevim
+使用包管理器安装vim或者neovim
+从spacevim官网复制命令执行，任意打开一个文件开始下载插件
+各种插件模块从spacevim自带的模块下载即可（异步，下载速度，运行速度都比较快）
+我使用的插件：autocomplete(使用默认的补全插件,需要自带的鸡肋的函数展开功能)
+              format(neoformat，需要自己设置按键映射，自定义.clang-format文件)
+              checkers(语法检查插件，需要自己开启实时检查，写入磁盘时会检错)
+              Tagbar(基于ctags建立的符号索引，需要自己安装ctags，并且把<F8>设置为按键映射)
+              nerdtree(文件目录插件，使用<F3>打开) 
+4、tmux
+把prefix设置为<C-a>比较方便
+prefix % 竖向分屏
+prefix " 横向分屏
+prefix x 关闭panel（窗格）
+prefix c 创建窗口(window)
+prefix p 跳到前一个窗口
+prefix n 跳到下一个窗口 
+prefix & 关闭窗口
